@@ -1,0 +1,36 @@
+This program helps you manage a list of tasks.
+
+The first line of the code, import os, imports a module called "os" which helps you interact with your computer's operating system.
+
+The second line, tasks = [], creates an empty list called "tasks" where you can store your tasks.
+
+The next four functions, remove_task(), save_tasks(), load_tasks(), and add_task(), are functions that you can call to perform specific actions on your list of tasks.
+
+The view_tasks() function is called when you want to see your list of tasks.
+
+The while loop that follows allows you to interact with the program by displaying a list of options and asking for your input. 
+
+The if statements check your input and call the appropriate function based on your choice.
+
+The program will continue to loop and ask for input until you choose option 6 to quit.
+
+Finally, if the tasks list is empty and a file called "tasks.txt" exists, the program will remove the file as a cleanup step.
+
+Overall, this program helps you manage a list of tasks by allowing you to add, view, remove, save, and load tasks.
+
+//EXPLAINATION OF USED FUNCTION 
+
+Here's a breakdown of its functionality:
+
+The code begins by importing the os module and initializing an empty list called tasks to store the tasks.
+
+There are several functions defined in the code:
+
+remove_task(): Removes a task from the tasks list based on user input.
+save_tasks(): Saves the current tasks list to a file named "tasks.txt".
+load_tasks(): Loads tasks from a file named "tasks.txt" into the tasks list.
+add_task(): Prompts the user to enter a new task and adds it to the tasks list.
+view_tasks(): Displays all the tasks in the tasks list.
+The code then enters a continuous loop that presents the user with a menu of options and performs the corresponding actions based on user input. The options include adding a task, viewing tasks, removing a task, saving tasks to a file, loading tasks from a file, and quitting the program.
+
+At the end of the code, there's a cleanup step that removes the "tasks.txt" file if it's empty and exists.
