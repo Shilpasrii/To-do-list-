@@ -69,6 +69,6 @@ while True:
     else:
         print("Invalid choice. Please try again.")
 
-# cleanup by removing the tasks file if it's empty.
+# cleaning up by removing the tasks file if it's empty.
 if len(tasks) == 0 and os.path.exists("tasks.txt"):
     os.remove("tasks.txt")
