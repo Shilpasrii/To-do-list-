@@ -1,6 +1,6 @@
 This program helps you manage a list of tasks.
 
-The first line of the code, import os, imports a module called "os" which helps you interact with your computer's operating system.
+The first line of the code ,import os, imports a module called "os" which helps you interact with your computer's operating system.
 
 The second line, tasks = [], creates an empty list called "tasks" where you can store your tasks.
 
