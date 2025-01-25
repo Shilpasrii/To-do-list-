@@ -10,5 +10,5 @@ If you enter a valid number, the task will be removed from the list.
 
 You can also save and load tasks to and from a file using the "Save tasks" and "Load tasks" options.
 
-If you choose "Quit", the program will exit. If the list is empty and a task file exists, it will remove the file.
+If you choose "Quit", then the program will exit. If the list is empty and a task file exists, it will remove the file.
 
