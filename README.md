@@ -1,4 +1,4 @@
-This code is a simple to-do list application. It allows you to add, view, remove, save and load tasks from a file.
+This code is a simple to-do list application. It allows you to add, view, remove, save, and load tasks from a file.
 
 You can choose an option from a menu by entering a number. If you select "Add a task", you can enter a new task and it will be added to the list.  
 
